@@ -1,0 +1,47 @@
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\graphicspath{{./figures/}}
+\usepackage[]{natbib}
+%\usepackage{chapterbib}
+\bibliographystyle%
+  {wileynum}%for numerical citation and numerically listed entries in the bibliography
+  %{wileyauy}%for author--year citation and alphabetical order in the bibliography
+\usepackage{wileySTM}
+\usepackage[\ifnum\pdfoutput=1breaklinks\fi]{hyperref}
+\author{Indranil Dutta and Dafydd Gibbon}\title{Deep learning architectures in speech processing}
+
+%\includeonly{}
+
+\begin{document}
+\frontmatter
+%\include{foreword}
+%\tableofcontents
+%\include{preface}
+\mainmatter
+\section{Introduction}
+Deep learning as a broad framework of methods has taken the speech and natural language processing systems by a storm. The deluge of work that has happened in the last 25 years or so has shown remarkabale promise and has also underscores the need to present here the progress that has been made since the late 80's. One of the primary goals of our paper, therefore, is to highlight some of the most significant approaches and the findings therein. While our approach mostly will be chronological, we will also focus on how deep neural networks (DNN) have fundamentally revolutionized our approach to both Automatic Speech Recognition (ASR) and Text-to-Speech Synthesis (TTS). In addition, we want to focus on a very specific aspect within the use of DNNs in speech processing, namely the integration of linguistic knowledge in achieving some of the remarkable successes in the core tasks of speech processing.
+
+In a series of seminal papers, \cite{bengio1989_acm,bengio1989} outline the use of multilayered neural networks in ASR and speaker recognition, respectively. 
+
+\section{The architecture of Deep Neural Netowrks}
+Typically, DNNs refer to feedforward multi-layered artificial neural networks (ANN) with more than one layer of hidden units with a logistic function
+
+\begin{equation}
+y$_j$ = logistic(x$_j$)
+
+\end{equation}
+
+\bibliographystyle {natbib}
+\bibliography{llc_biblio}
+%\part{}
+%\include{c01}
+%\include{c02}
+%...
+%\appendix
+%\include{a01}
+\backmatter
+%\include{b01}
+%\printindex
+\end{document}

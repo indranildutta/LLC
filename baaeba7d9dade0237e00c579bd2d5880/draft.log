@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 NOV 2016 09:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  9 DEC 2016 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,6 +23,13 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
 
 LaTeX Warning: Unused global option(s):
     [reqno].
@@ -30,59 +37,79 @@ LaTeX Warning: Unused global option(s):
 (baaeba7d9dade0237e00c579bd2d5880/draft.aux)
 \openout1 = `draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 9.
+(Font)              <14.4> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <7> on input line 10.
 
 
 LaTeX Warning: No \author given.
 
 [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (42.25021pt too wide) in paragraph at lines 41--41
+]
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 51--51
 []\OT1/cmtt/m/n/12 % What is the difference between supervised and unsupervised
  learning?[] 
  []
 
 
-Overfull \hbox (42.25021pt too wide) in paragraph at lines 41--41
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 51--51
 []\OT1/cmtt/m/n/12 % What is the difference between classification and sequence
  learning?[] 
  []
 
-[1] (baaeba7d9dade0237e00c579bd2d5880/draft.aux) ) 
-Here is how much of TeX's memory you used:
- 218 strings out of 493089
- 2571 string characters out of 6134842
- 56199 words of memory out of 5000000
- 3783 multiletter control sequences out of 15000+600000
- 5925 words of font info for 22 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 22i,6n,21p,200b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on baaeba7d9dade0237e00c579bd2d5880/draft.pdf (2 pages, 43487 by
-tes).
-PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 51--51
+[]\OT1/cmtt/m/n/12 \item How do ML and DNN relate to current topics such as big
+ data,[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 51--51
+[]\OT1/cmtt/m/n/12 \item What kind of insights can ML and DNN provide for lingu
+ists?[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 51--51
+[]\OT1/cmtt/m/n/12 \item How do DNNs relate to first language acquisition and f
+oreign[] 
+ []
+
+[1]
+
+Package natbib Warning: Citation `bengio1989_acm' on page 2 undefined on input 
+line 55.
+
+
+Package natbib Warning: Citation `bengio1989' on page 2 undefined on input line
+ 55.
+
+(baaeba7d9dade0237e00c579bd2d5880/draft.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[2] (baaeba7d9dade0237e00c579bd2d5880/draft.aux) ) 
+Here is how much of TeX's memory you used:
+ 560 strings out of 493706
+ 6598 string characters out of 6145769
+ 62055 words of memory out of 5000000
+ 3975 multiletter control sequences out of 15000+600000
+ 6232 words of font info for 23 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 22i,6n,22p,921b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on baaeba7d9dade0237e00c579bd2d5880/draft.pdf (3 pages).

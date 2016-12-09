@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\input{babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand\eprint[2][]{{\if!#1!#2\else\href{http://www.#1.org/#2}{#2}\fi}}
+
+\bibitem{bengio1989_acm}
+Bengio, Y., Cardin, R., De~Mori, R., \bbland{} Merlo, E. (1989) Programmable
+  execution of multi-layered networks for automatic speech recognition.
+  \emph{Commun. ACM}, \textbf{32}~(2), 195--199, \doi{10.1145/63342.63345}.
+  \urlprefix\url{http://doi.acm.org/10.1145/63342.63345}.
+
+\bibitem{bengio1989}
+Bengio, Y., De~Mori, R., \bbland{} Cardin, R. (1989) Speaker independent speech
+  recognition with neural networks and speech knowledge, \bblin{}
+  \emph{Proceedings of the 2nd International Conference on Neural Information
+  Processing Systems}, MIT Press, Cambridge, MA, USA, NIPS'89, \bblpp{}
+  218--225. \urlprefix\url{http://dl.acm.org/citation.cfm?id=2969830.2969857}.
+
+\end{thebibliography}

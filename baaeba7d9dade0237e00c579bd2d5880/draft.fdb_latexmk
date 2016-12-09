@@ -1,5 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1478143828 "draft.tex" "baaeba7d9dade0237e00c579bd2d5880/draft.pdf" "draft" 1478151132
+["bibtex baaeba7d9dade0237e00c579bd2d5880/draft"] 1481264837 "baaeba7d9dade0237e00c579bd2d5880/draft.aux" "baaeba7d9dade0237e00c579bd2d5880/draft.bbl" "baaeba7d9dade0237e00c579bd2d5880/draft" 1481264838
+  "baaeba7d9dade0237e00c579bd2d5880/draft.aux" 1481264837 227 90b4cdd44799787be66b8cada75014d8 ""
+  "baaeba7d9dade0237e00c579bd2d5880/draft.bcf" 0 -1 0 ""
+  "llc_biblio.bib" 1479694507 4803 05c010e74c566bc06b63560a9991bbcc ""
+  "natbib.bst" 0 -1 0 ""
+  (generated)
+  "baaeba7d9dade0237e00c579bd2d5880/draft.bbl"
+  "baaeba7d9dade0237e00c579bd2d5880/draft.blg"
+["pdflatex"] 1481264837 "draft.tex" "baaeba7d9dade0237e00c579bd2d5880/draft.pdf" "draft" 1481264838
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -7,19 +15,16 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
-  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
-  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls" 1428932888 20708 96f8bca6e380179cada1d49716376167 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo" 1428932888 9190 a2c71ff21fa1cfc03c403f5e246966b5 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty" 1291685959 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
-  "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
-  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
+  "/usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt" 1432479679 3445950 7f6125c6eb78b33bcedbe55e49dbfd83 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "baaeba7d9dade0237e00c579bd2d5880/draft.aux" 1478143828 77 4618ba6c1276712f1c59f1d4b5d9cd00 ""
-  "draft.tex" 1478143828 1563 909874e6fd3fb1adb76b10e13a9d9527 ""
+  "baaeba7d9dade0237e00c579bd2d5880/draft.aux" 1481264837 227 90b4cdd44799787be66b8cada75014d8 ""
+  "baaeba7d9dade0237e00c579bd2d5880/draft.bbl" 1481264837 0 d41d8cd98f00b204e9800998ecf8427e "bibtex baaeba7d9dade0237e00c579bd2d5880/draft"
+  "draft.tex" 1481264836 3079 9e36680bfa5aef1063bf1a933ca2a113 ""
   (generated)
   "baaeba7d9dade0237e00c579bd2d5880/draft.aux"
-  "baaeba7d9dade0237e00c579bd2d5880/draft.log"
   "baaeba7d9dade0237e00c579bd2d5880/draft.pdf"
+  "baaeba7d9dade0237e00c579bd2d5880/draft.log"
