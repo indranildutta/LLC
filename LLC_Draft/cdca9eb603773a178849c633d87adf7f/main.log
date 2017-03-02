@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  9 DEC 2016 13:09
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 JAN 2017 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -63,6 +63,64 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count87
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks18
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
 (./wileySTM.sty
 Package: wileySTM 2015/03/03 v1.02 Wiley STM manuscripts
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/fixltx2e.sty
@@ -74,7 +132,7 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
-\mathindent=\dimen105
+\mathindent=\dimen114
 Applying: [2015/01/01] Make \[ robust on input line 50.
 LaTeX Info: Redefining \[ on input line 51.
 Already applied: [0000/00/00] Make \[ robust on input line 62.
@@ -82,7 +140,7 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-\c@author=\count88
+\c@author=\count100
 
 
 ! LaTeX Error: \l@chapter undefined.
@@ -98,29 +156,27 @@ If that doesn't work, type  X <return>  to quit.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
-\c@tracingmulticols=\count89
-\mult@box=\box26
-\multicol@leftmargin=\dimen106
-\c@unbalance=\count90
-\c@collectmore=\count91
-\doublecol@number=\count92
-\multicoltolerance=\count93
-\multicolpretolerance=\count94
-\full@width=\dimen107
-\page@free=\dimen108
-\premulticols=\dimen109
-\postmulticols=\dimen110
-\multicolsep=\skip45
-\multicolbaselineskip=\skip46
-\partial@page=\box27
-\last@line=\box28
-\maxbalancingoverflow=\dimen111
-\mult@rightbox=\box29
-\mult@grightbox=\box30
-\mult@gfirstbox=\box31
-\mult@firstbox=\box32
-\@tempa=\box33
-\@tempa=\box34
+\c@tracingmulticols=\count101
+\mult@box=\box28
+\multicol@leftmargin=\dimen115
+\c@unbalance=\count102
+\c@collectmore=\count103
+\doublecol@number=\count104
+\multicoltolerance=\count105
+\multicolpretolerance=\count106
+\full@width=\dimen116
+\page@free=\dimen117
+\premulticols=\dimen118
+\postmulticols=\dimen119
+\multicolsep=\skip48
+\multicolbaselineskip=\skip49
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen120
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
 \@tempa=\box35
 \@tempa=\box36
 \@tempa=\box37
@@ -136,14 +192,16 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count95
-\c@finalcolumnbadness=\count96
-\last@try=\dimen112
-\multicolovershoot=\dimen113
-\multicolundershoot=\dimen114
-\mult@nat@firstbox=\box50
-\colbreak@box=\box51
-\mc@col@check@num=\count97
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count107
+\c@finalcolumnbadness=\count108
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count109
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/tgtermes.sty
 Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
@@ -276,7 +334,6 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -319,12 +376,12 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count98
-\U@D=\dimen115
+\babel@savecnt=\count110
+\U@D=\dimen124
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/xebabel.def))
-Overfull \hbox (192.87526pt too wide) in paragraph at lines 374--101
-[]\T1/qtm/m/n/10 2007[]                                                        
+Overfull \hbox (253.74315pt too wide) in paragraph at lines 374--101
+[]\T1/qtm/m/n/12 2007[]                                                        
                                                                                
                                                                                
                                                                                
@@ -334,64 +391,25 @@ Overfull \hbox (192.87526pt too wide) in paragraph at lines 374--101
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip47
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen116
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen117
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count99
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count100
-\leftroot@=\count101
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count102
-\DOTSCASE@=\count103
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-\big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
-\dotsspace@=\muskip10
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
-\tag@help=\toks19
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
-\andhelp@=\toks20
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks21
-\multlinegap=\skip48
-\multlinetaggap=\skip49
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
+
+! LaTeX Error: Option clash for package amsmath.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.386 \RequirePackage
+                     {color}
+The package amsmath has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [tbtags,fleqn]
+Adding the global options:
+  ,tbtags,fleqn
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
@@ -412,7 +430,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen129
 \extrarowheight=\dimen130
-\NC@list=\toks23
+\NC@list=\toks22
 \extratabsurround=\skip51
 \backup@length=\skip52
 )
@@ -427,7 +445,7 @@ Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 \TX@target=\dimen135
 \TX@delta=\dimen136
 \TX@cols=\count111
-\TX@ftn=\toks24
+\TX@ftn=\toks23
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
@@ -479,7 +497,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip53
 \rotFPbot=\skip54
 \rot@float@box=\box55
-\rot@mess@toks=\toks25
+\rot@mess@toks=\toks24
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -498,204 +516,37 @@ Package: crop 2003/05/20 v1.9 crop marks (mf)
 Package crop Info: Local config file crop.cfg used on input line 605.
 
 (/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetexconfig/crop.cfg)))
-! Undefined control sequence.
-\reserved@b ...ewithoptions #1[{\ifnum \pdfoutput 
-                                                  =1breaklinks\fi }][{}]\noe...
-l.13 \author
-            {Indranil Dutta and Dafydd Gibbon}\title{Deep learning architect...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.13 \author
-            {Indranil Dutta and Dafydd Gibbon}\title{Deep learning architect...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package atbegshi Info: Package `crop' patched.
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen159
-\Hy@linkcounter=\count120
-\Hy@pagecounter=\count121
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count122
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count123
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen160
-\Fld@menulength=\count124
-\Field@Width=\dimen161
-\Fld@charsize=\dimen162
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count125
-\c@Item=\count126
-\c@Hfootnote=\count127
-)
-
-Package hyperref Message: Driver (autodetected): hxetex.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box56
-\c@Hy@AnnotLevel=\count128
-\HyField@AnnotCount=\count129
-\Fld@listcount=\count130
-\c@bookmark@seq@number=\count131
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
-)
-\Hy@SectionHShift=\skip55
-)
-(cdca9eb603773a178849c633d87adf7f/main.aux)
+(cdca9eb603773a178849c633d87adf7f/main.aux
+(cdca9eb603773a178849c633d87adf7f/foreword.aux)
+(cdca9eb603773a178849c633d87adf7f/preface.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    ... okay on input line 18.
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package crop Info: using `pdftex' graphics driver on input line 17.
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 17.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count132
-)
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
-
-(cdca9eb603773a178849c633d87adf7f/main.out)
-(cdca9eb603773a178849c633d87adf7f/main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
-
+Package crop Info: using `pdftex' graphics driver on input line 18.
 
 ! Undefined control sequence.
-l.18 \frontmatter
+l.19 \frontmatter
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -703,8 +554,120 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 20.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
 ! Undefined control sequence.
-l.22 \mainmatter
+\CROP@@info ...itle \x \allowbreak \if@mainmatter 
+                                                  Chap.\nobreakspace \thecha...
+l.20 \include{foreword}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\CROP@@info ...ter Chap.\nobreakspace \thechapter 
+                                                  \x \fi \the \year /\the \m...
+l.20 \include{foreword}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+]
+\openout2 = `foreword.aux'.
+
+
+No file foreword.tex.
+! Extra \fi.
+\include ...e nested}\@eha \else \@include #1 \fi 
+                                                  
+l.20 \include{foreword}
+                       
+I'm ignoring this; it doesn't match any \if.
+
+LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 21.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.53561> not available
+(Font)              size <10> substituted on input line 21.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.53561> not available
+(Font)              size <10> substituted on input line 21.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.53561> not available
+(Font)              size <10> substituted on input line 21.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 21.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <9.53561> not available
+(Font)              size <10> substituted on input line 21.
+
+(cdca9eb603773a178849c633d87adf7f/main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+! Undefined control sequence.
+\CROP@@info ...itle \x \allowbreak \if@mainmatter 
+                                                  Chap.\nobreakspace \thecha...
+l.22 \include{preface}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\CROP@@info ...ter Chap.\nobreakspace \thechapter 
+                                                  \x \fi \the \year /\the \m...
+l.22 \include{preface}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2
+
+
+]
+\openout2 = `preface.aux'.
+
+
+No file preface.tex.
+! Extra \fi.
+\include ...e nested}\@eha \else \@include #1 \fi 
+                                                  
+l.22 \include{preface}
+                      
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+l.23 \mainmatter
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -712,70 +675,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 23.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-LaTeX Font Info:    Calculating math sizes for size <9.53561> on input line 23.
-
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.53561> not available
-(Font)              size <10> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.53561> not available
-(Font)              size <10> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.53561> not available
-(Font)              size <10> substituted on input line 23.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+stmry on input line 23.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <9.53561> not available
-(Font)              size <10> substituted on input line 23.
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
-
-)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 y$_
-        j$ = logistic(x$_j$)
+l.36 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.36 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-! LaTeX Error: Bad math environment delimiter.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Underfull \hbox (badness 10000) detected at line 36
+$ \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 logistic\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = []\OML/cmm/m/it/10 ; x[] \OT1/cmr/m
+/n/10 = \OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 + [] \OML/cmm/m/it/10 y[]w[]; []$
+ []
 
 ! Extra }, or forgotten $.
-\endmathdisplay@fleqn ...kip \@mathmargin \egroup 
-                                                  \ifnum \badness <\inf@bad ...
-l.34 \end{equation}
+\endequation ...inewidth \hbox {\@eqnnum }\egroup 
+                                                  \endtrivlist 
+l.37 \end{equation}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -783,21 +712,48 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+
+! LaTeX Error: Command \end{equation} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \end{equation}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.34 \end{equation}
+l.37 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (11.11852pt too wide) in paragraph at lines 34--38
+ []$ []$ 
+ []
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.40 p_{j}=\frac{exp(x_{j})}{\sum_^{k}exp(x_{k})}
+                                                 
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.34 \end{equation}
+l.41 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -805,50 +761,80 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
+! Missing { inserted.
 <to be read again> 
-                   \endgroup 
-l.34 \end{equation}
+                   ^
+l.44 C=-{\sum_^
+               {j}}d_{j} log p_{j}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.45 \end{equation}
                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-(cdca9eb603773a178849c633d87adf7f/main.bbl (./babelbst.tex)
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 16.
+(cdca9eb603773a178849c633d87adf7f/main.bbl
+! Undefined control sequence.
+\CROP@@info ...itle \x \allowbreak \if@mainmatter 
+                                                  Chap.\nobreakspace \thecha...
+l.1 \begin{thebibliography}{3}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\CROP@@info ...ter Chap.\nobreakspace \thechapter 
+                                                  \x \fi \the \year /\the \m...
+l.1 \begin{thebibliography}{3}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 16.
+]
+! Extra \fi.
+\enough@room ...im \page@free <#1\newpage \fi \fi 
+                                                  
+l.1 \begin{thebibliography}{3}
+                              
+I'm ignoring this; it doesn't match any \if.
 
+(./babelbst.tex)
+LaTeX Font Info:    Try loading font information for T1+qcr on input line 20.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
-(Font)              size <5> substituted on input line 16.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 16.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 16.
-
-LaTeX Font Info:    Try loading font information for T1+qcr on input line 17.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-))
+)
+Overfull \hbox (43.19623pt too wide) in paragraph at lines 16--21
+\T1/qcr/m/n/8.03 http://doi.acm.org/10.1145/63342.63345\T1/qtm/m/n/8.03 .  
+ []
+
+
+Overfull \hbox (96.19415pt too wide) in paragraph at lines 24--30
+\T1/qcr/m/n/8.03 http://dl.acm.org/citation.cfm?id=2969830.2969857\T1/qtm/m/n/8
+.03 .  
+ []
+
+)
 ! Undefined control sequence.
-l.44 \backmatter
+l.61 \backmatter
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -856,11 +842,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
 ! Undefined control sequence.
 \CROP@@info ...itle \x \allowbreak \if@mainmatter 
                                                   Chap.\nobreakspace \thecha...
-l.47 \end{document}
+l.64 \end{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -871,7 +856,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \CROP@@info ...ter Chap.\nobreakspace \thechapter 
                                                   \x \fi \the \year /\the \m...
-l.47 \end{document}
+l.64 \end{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -879,34 +864,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1
-
-]
+[4]
 ! Extra \fi.
 <output> ...lmade \fi {\@opcol \@startcolumn }\fi 
                                                   \ifnum \outputpenalty >-\@...
-l.47 \end{document}
+l.64 \end{document}
                    
 I'm ignoring this; it doesn't match any \if.
 
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
-(cdca9eb603773a178849c633d87adf7f/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 47.
-
+(cdca9eb603773a178849c633d87adf7f/main.aux
+(cdca9eb603773a178849c633d87adf7f/foreword.aux)
+(cdca9eb603773a178849c633d87adf7f/preface.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.985pt have occurred.
+(Font)              up to 0.46439pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 12188 strings out of 493706
- 173639 string characters out of 6145769
- 248133 words of memory out of 5000000
- 15343 multiletter control sequences out of 15000+600000
- 42932 words of font info for 56 fonts, out of 8000000 for 9000
+ 5427 strings out of 493706
+ 76762 string characters out of 6145769
+ 143396 words of memory out of 5000000
+ 8628 multiletter control sequences out of 15000+600000
+ 38458 words of font info for 39 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 45i,10n,45p,920b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,40p,919b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cdca9eb603773a178849c633d87adf7f/main.pdf (1 page).
+Output written on cdca9eb603773a178849c633d87adf7f/main.pdf (4 pages).
