@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage{Sweave}
+\begin{document}
+\input{figures_sweave-concordance}
+
+x <- seq(-10, 10, length.out = 101)
+y1 <- sigmoid(x)
+y2 <- sigmoid(x, a = 0.1)
+y3 <- sigmoid(x, a = 5)
+
+plot(x, y1, type = "l", col = "darkblue", 
+     xlab = ``Articulatory parameter", ylab = ``Acoustic parameter", main = "Sigmoid Function(s)")
+lines(x, y2, col = "darkgreen")
+lines(x, y3, col = "darkred")
+grid()
+
+
+
+\end{document}
