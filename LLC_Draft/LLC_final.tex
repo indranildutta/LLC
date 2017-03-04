@@ -1,10 +1,12 @@
-\documentclass{article}
+\documentclass{article}[12pt]
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 %\graphicspath{{./figures/}}
-\usepackage{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{amsmath}
-\bibliographystyle{natbib}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
 \newcommand{\possessivecite}[1]{\citeauthor{#1}'s \citeyear{#1}}
 \author{}\title{Deep learning architectures in speech processing: Modeling dynamic speech gestures}
 
@@ -32,14 +34,25 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 \end{equation}
 
 \begin{equation}
+<<<<<<< Updated upstream
 % p_{j}=\frac{exp(x_{j})}{\sum_^{k}exp(x_{k})}
 % \label{Eq2}
+=======
+p_{j}=\frac{exp(x_{j})}{\sum_^{k}exp(x_{k})}
+\label{Eq2}
+>>>>>>> Stashed changes
 \end{equation}
 \begin{equation}
+<<<<<<< Updated upstream
 % C=-{\sum_^{j}}d_{j} log p_{j}
+=======
+C=-{\sum_^{j}}d_{j} log p_{j}
+\label{Eq3}
+>>>>>>> Stashed changes
 \end{equation}
 \begin{equation}
 \Delta w_{ij}(t)=\alpha\Delta w_{ij}(t-1) - \epsilon \frac{\delta C}{\delta w_{ij}(t)}
+\label{Eq4}
 \end{equation}
 % \end{center}
 
@@ -51,7 +64,7 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 
 \section{Modelling dynamic processes in speech processing}
 In this section we will cover a special use case of applying deep learning methods to an essentially non-linear set of problems, namely, modeling the dynamic nature of the articulatory-acoustic mapping (AAM). Since \cite{stevens1968}, it has been known that the relationship between the articulatory and acoustic parameters is non-linear and
-\bibliographystyle{natbib}
+
 \bibliography{llc_biblio}
 
 \end{document}
