@@ -48,11 +48,16 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 \end{equation}
 % \end{center}
 
-\subsection{Deep Belief Networks}
-Restricted Boltzmann Machines (RBMs) are a class of stochastic neural networks typically applied to unsupervised learning problems. The architecture consists of a layer of visible units, which correspond to the input data vector, and a layer of hidden units. The 'restriction' here, in reference to regular Boltzmann Machines, is that there are no visible-visible or hidden-hidden connections. The result of this is that the hidden units are mutually independent and can be sampled parallely in an unbiased way. This allows the RBM to
-
 \subsection{Recurrent Neural Networks}
-In a Recurrent Neural Network (RNN) the connections between units form a directed cycle. This construction provides units in the network to have feedback connections which allow the network to have an internal state determined by prior computational cycles which can affect the current cycle. Intuitively, this internal state may be understood as providing the network with a memory mechanism. Because of this feature, RNNs are very suitable for learning/processing tasks that involve sequential data, and their use has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition.
+In a Recurrent Neural Network (RNN) the connections between units form a directed cycle. This construction provides units in the network to have feedback connections which allow the network to have an internal state determined by prior computational cycles which can affect the current cycle. Intuitively, this internal state may be understood as providing the network with a memory mechanism. This feature of RNNs makes them suitable for learning/processing tasks on data that is temporally dynamic and sequential, such as speech. The use of RNNs has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition.
+
+
+\subsection{Deep Belief Networks}
+Restricted Boltzmann Machines (RBMs) are a class of stochastic neural networks typically applied to unsupervised learning problems. The architecture consists of a layer of visible units, which correspond to the input data vector, and a layer of hidden units. The 'restriction' here, in reference to regular Boltzmann Machines, is that there are no visible-visible or hidden-hidden connections. The result of this is that the hidden units are mutually independent and can be sampled parallely in an unbiased way. This allows the RBM to efficiently find
+
+
+
+
 \subsection{Sequence learning: Special case of LSTMs}
 
 \section{Modelling dynamic processes in speech processing}
