@@ -56,8 +56,16 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 
 \section{Modelling dynamic processes in speech processing}
 In this section we will cover a special use case of applying deep learning methods to an essentially non-linear set of problems, namely, modeling the dynamic nature of the articulatory-acoustic mapping (AAM). Since \cite{stevens1968}, it has been known that the relationship between the articulatory and acoustic parameters is non-linear and
+\subsection{Acoustic-to-Articulatory inversion}
+Acoustic variation can be considered a direct consequence of changes in the articulatory parameter. While a given articulatory state will always have a unitary and unique acoustic realization, a given acoustic signal could be the outcome of more than one articulatory states. This is exemplified in \ref{Fig.1} below, where large changes in the articulatory parameter may not consequently produce different acoustic variations, however, every articulatory state has a unique acoustic consequence. The mapping between the articulatory and acoustic parameters, therefore, is highly non-linear in nature. A slight variation of the articulatory state may give rise to a whole different acoustic signal. This gives rise to a class of problems understood as the acoustic to articulatory inversion problem. 
+
+\begin{figure}[h]
+\includegraphics[scale=0.80]{sigmoid.pdf}
+\label{Fig.1}
+\end{figure}
+\subsection{Acoustic-to-Articulatory mapping}
 \cite{toutios2003}
-\cite{badino2016,canevari2013,cernal2016}
+\cite{badino2016,canevari2013,cernak2016}
 \bibliographystyle{unsrtnat}
 \bibliography{llc_biblio}
 
