@@ -25,11 +25,6 @@ In a series of seminal papers, \cite{bengio1989_acm,bengio1989} outline the use 
 
 Typically, DNNs refer to feed-forward multi-layered artificial neural networks (ANN) with more than one layer of hidden units with a logistic function to traverse between the hidden layers and the output. Here we rely on \cite{hinton2012} to outline the general architecture of DNNs. We will illustrate the functioning of the algorithms and the processes with an acoustic modeling task as discussed in \cite{hinton2012}. Information from each hidden unit, j, is used along with a logistic function in order to map the total input from the previous layer, x$_j$, to a scalar state, y$_j$ which is then sent to the following layer.
 
-
-
-
-
-
 Here, as in \ref{Eq1} below, b$_j$ refers to the bias associated with the unit j
 % \begin{center}
 \begin{equation}
@@ -52,19 +47,19 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 \end{equation}
 % \end{center}
 
-\subsection{Recurrent Neural Networks}
-In a Recurrent Neural Network (RNN) the connections between units form a directed cycle. This construction provides units in the network to have feedback connections which allow the network to have an internal state determined by prior computational cycles which can affect the current cycle. Intuitively, this internal state may be understood as providing the network with a memory mechanism. This feature of RNNs makes them suitable for learning/processing tasks on data that is temporally dynamic and sequential, such as speech. The use of RNNs has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition.
+\subsection{Sequence Learning with Recurrent Neural Networks}
+Feed-forward neural networks (deep or otherwise) are effective for modelling non-linear relationships between fixed-length inputs and outputs. This however limits their application in learning problems which involve sequential data, such as to be found in the linguistic domain. Speech as well as text are inherently sequential in form, and to effectively model these, the basic feed-forward architecture needed to be extended.
 
-
+Recurrent Neural Networks (RNN) \cite{rumelhart1986} provided these necessary extensions to the basic feed-forward architecture in the form of internal feedback connections that allowed the network to propagate learned weights from past processing steps to the current one. Instead of a single fixed-length input vector x, RNNs take in a sequence of input vectors x$^1$,\ldots,x$^t$, which correspond (though not necessarily) to a sequence in time with timesteps t. At Intuitively, this internal state may be understood as providing the network with a memory mechanism. This feature of RNNs makes them suitable for learning/processing tasks on data that is temporally dynamic and sequential, such as speech. The use of RNNs has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition.
 
 \subsection{Deep Belief Networks}
 Restricted Boltzmann Machines (RBMs) are a class of stochastic neural networks typically applied to unsupervised learning problems. The architecture consists of a layer of visible units, which correspond to the input data vector, and a layer of hidden units. The 'restriction' here, in reference to regular Boltzmann Machines, is that there are no visible-visible or hidden-hidden connections. The result of this is that the hidden units are mutually independent and can be sampled parallely in an unbiased way. This allows the RBM to efficiently find
 
 
-\subsection{Sequence learning: Special case of LSTMs}
 
 \section{Modelling dynamic processes in speech processing}
 In this section we will cover a special use case of applying deep learning methods to an essentially non-linear set of problems, namely, modeling the dynamic nature of the articulatory-acoustic mapping (AAM). Since \cite{stevens1968}, it has been known that the relationship between the articulatory and acoustic parameters is non-linear and has been explicated within the broad reach of \emph{Quantal theory} \citep{stevens1968}
+
 \subsection{Acoustic-to-Articulatory inversion}
 Acoustic variation can be considered a direct consequence of changes in the articulatory parameter. While a given articulatory state will always have a unitary and unique acoustic realization, a given acoustic signal could be the outcome of more than one articulatory states. This is exemplified in \ref{Fig.1} below, where large changes in the articulatory parameter may not consequently produce different acoustic variations, however, every articulatory state has a unique acoustic consequence. The mapping between the articulatory and acoustic parameters, therefore, is highly non-linear in nature. A slight variation of the articulatory state may give rise to a whole different acoustic signal. This gives rise to a class of problems understood as the acoustic to articulatory inversion problem.
 
