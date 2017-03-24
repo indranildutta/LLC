@@ -32,20 +32,21 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 \label{Eq1}
 \end{equation}
 
-\begin{equation}
-% p_{j}=\frac{exp(x_{j})}{\sum_^{k}exp(x_{k})}
-\label{Eq2}
-\end{equation}
+% \begin{equation}
+% % p_{j}=\frac{exp(x_{j})}{\sum_^{k}exp(x_{k})}
+% \label{Eq2}
+% \end{equation}
 
-\begin{equation}
-% C=-{\sum_^{j}}d_{j} log p_{j}
-\label{Eq3}
-\end{equation}
+% \begin{equation}
+% % C=-{\sum_^{j}}d_{j} log p_{j}
+% \label{Eq3}
+% \end{equation}
 \begin{equation}
 \Delta w_{ij}(t)=\alpha\Delta w_{ij}(t-1) - \epsilon \frac{\delta C}{\delta w_{ij}(t)}
 \label{Eq4}
 \end{equation}
 % \end{center}
+
 
 \subsection{Sequence Learning with Recurrent Neural Networks}
 Feed-forward neural networks (deep or otherwise) are effective for modelling non-linear relationships between fixed-length inputs and outputs. This however limits their application in learning problems which involve sequential data, such as to be found in the linguistic domain. Speech as well as text are inherently sequential in form, and to effectively model these, the basic feed-forward architecture needed to be extended.
