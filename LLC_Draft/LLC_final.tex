@@ -1,11 +1,20 @@
+
 \documentclass{article}[12pt]
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{neuralnetwork}
+\usetikzlibrary{matrix,chains,positioning,decorations.pathreplacing,arrows}
+
+
 %\graphicspath{{./figures/}}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{natbib}
+
+
 
 \newcommand{\possessivecite}[1]{\citeauthor{#1}'s \citeyear{#1}}
 \author{}\title{Deep learning architectures in speech processing: Modeling dynamic speech gestures}
@@ -13,10 +22,115 @@
 \begin{document}
 \maketitle
 \section{Introduction}
-Deep learning as a broad framework of methods has taken speech and natural language processing system-building by a storm. The deluge of work that has happened in the last 25 or so years has shown remarkable promise, and growth. Therefore we don't need to underscore the need to present here the progress that has been made since the late 80's. One of the primary goals of our paper, therefore, is to highlight some of the most significant approaches and the findings therein. While our approach mostly will be chronological, we will also focus on how deep neural networks (DNN) have fundamentally revolutionized our approach to speech processing systems in general, and Automatic Speech Recognition (ASR) and Text-to-Speech Synthesis (TTS) in particular. More particularly, we will focus on a specific sub-task within broad speech processing and that is the articulatory-acoustic domain mapping. In that sense, the objective of this paper is to cover the most significant advances made in speech processing though deep learning models and architectures, but also focus on how deep learning architectures have helped unearth crucial generalizations between speech articulatory gestures and their acoustic manifestations. In addition, we want to focus on a very specific aspect within the use of DNNs in speech processing, namely the integration of linguistic knowledge in achieving some of the remarkable successes in the core tasks of speech processing. At the outset, we would like to outline that the goals of this paper are not to introduce the concepts of machine learning, but to specifically treat a class of learning algorithms that variously appear in the literature under the cover term deep learning. Essentially, all deep learning systems and architectures are a specific form of artificial neural networks which have been in existence for a significant amount of time, but regained currency in the mid-80s with publications emerging from the parallel distributed processing group at San Diego. The paper is organized as follows: In the following section, we motivate the need to look closely into the various deep learning initiatives and outline the importance of the major impacts of these learning mechanisms. In Section 3, we briefly, and very generally, discuss the various architectures that help build deep learning models. In section 4, we concentrate on a specific use-case and outline the successes in this use-case, namely, the articulatory-acoustic mapping problem. In section 5, we offer some perspective and perhaps, hazard some speculation as to the future of these learning models.
+Deep learning as a broad framework of methods has taken speech and natural language processing system-building by a storm. The deluge of work that has happened in the last 25 or so years has shown remarkable promise, and growth. Therefore we don't need to underscore the need to present here the progress that has been made since the late 80's. One of the primary goals of our paper, therefore, is to highlight some of the most significant approaches and the findings therein. Our approach here is both to present and condense these findings, while we focus on how deep neural networks (DNN) have fundamentally revolutionized our approach to speech processing systems in general, and Automatic Speech Recognition (ASR) and Text-to-Speech Synthesis (TTS) in particular. The articulatory-acoustic portion of the speech chain is fundamentally non-linear and non-unique and our specific focus in the use of deep learning architectures is to highlight the success in a specific sub-task within broad speech processing and that is the articulatory-acoustic domain mapping. In that sense, the objective of this paper is to cover the most significant advances made in speech processing though deep learning models and architectures, but also focus on how deep learning architectures have helped unearth crucial generalizations between speech articulatory gestures and their acoustic manifestations. In addition, we want to focus on a very specific aspect within the use of DNNs in speech processing, namely the integration of linguistic knowledge in achieving some of the remarkable successes in the core tasks of speech processing. At the outset, we would like to outline that the goals of this paper are not to introduce the concepts of machine learning, but to specifically treat a class of learning algorithms that variously appear in the literature under the cover term deep learning. Essentially, all deep learning systems and architectures are a specific form of artificial neural networks which have been in existence for a significant amount of time, but regained currency in the mid-80s with publications emerging from the parallel distributed processing group at San Diego. The paper is organized as follows: In the following section, we motivate the need to look closely into the various deep learning initiatives and outline the importance of the major impacts of these learning mechanisms. In Section 3, we briefly, and very generally, discuss the various architectures that help build deep learning models. In section 4, we concentrate on a specific use-case and outline the successes in this use-case, namely, the articulatory-acoustic mapping problem. In section 5, we offer some perspective and perhaps, hazard some speculation as to the future of these learning models.
 
 \section{Why Deep Learning?}
-We will begin this section with \cite{manning2015} who in his paper points to a few crucial changes that have come as a consequence of the expansion of deep learning systems in natural language processing. One of his primary concerns and engagement in this paper has been to point out how natural language processing takes center stage as far as being one of the most important challenges for machine learning scientists and deep learning enthusiasts, alike. \possessivecite{manning2015} entreatment is a clarion call for linguists, NLP engineers and data scientists to shift focus away from beating benchmark dataset tasks and challenges, and to concentrate on ``problems, approaches, and architectures". The import of \possessivecite{manning2015} appeal to re-engage with the cognitive and design goals of the study of human languages has been felt and responded to by work that has sought to understand deep learning architectures in the context of language cognition, and essentially has managed to re-center focus on NLP tasks as not just an engineering challenge, but also to re-imagine the goals of NLP research broadly within the cognitive and language sciences. In this paper, and especially \ref{section 4}, we discuss in detail how these goals have been achieved, and in which direction NLP research is moving armed with deep learning tools. We will treat the use of deep learning methods on solving acoustic variation problems that come about of an essentially non-linear problem that of articulatory-acoustic mapping and articulatory-acoustic inversion. The non-linearities that arise in the articulatory-acoustic mapping are a direct consequence of the way speech articulators overlap with each other in a non-discrete fashion to produce contrastive sequences of segments.
+We will begin this section with \cite{manning2015} who in his paper points to a few crucial changes that have come as a consequence of the expansion of deep learning systems in natural language processing. One of \possessivecite{manning2015} primary concerns and engagement in this paper has been to point out how natural language processing takes center stage as far as being one of the most important challenges for machine learning scientists and deep learning enthusiasts, alike. \possessivecite{manning2015} entreatment is a clarion call for linguists, NLP engineers and data scientists to shift focus away from beating benchmark dataset tasks and challenges, and to concentrate on ``problems, approaches, and architectures". The import of \possessivecite{manning2015} appeal to re-engage with the cognitive and design goals of the study of human languages has been felt and responded to by work that has sought to understand deep learning architectures in the context of language cognition, and essentially has managed to re-center focus on NLP tasks as not just an engineering challenge, but also to re-imagine the goals of NLP research broadly within the cognitive and language sciences. In this paper, and especially section\ref{section 4}, we discuss in detail how these goals have been achieved, and in which direction NLP research is moving armed with deep learning tools. We will treat the use of deep learning methods on solving acoustic variation problems that come about as a consequence of an essentially non-linear problem that of articulatory-acoustic mapping and articulatory-acoustic inversion. The non-linearities that arise in the articulatory-acoustic mapping are a direct consequence of the way speech articulators overlap with each other in a non-discrete fashion to produce contrastive sequences of segments.
+
+\cite{Schmidhuber2015} is a fairly comprehensive introduction to available architectures within deep learning. Notable concepts that find mention in this survey article include an essential concept in automatic learning mechanisms; \emph{fundamental credit assignment problem} \citep{minsky1963}. Within the context of neural networks \emph{learning} and \emph{credit assignment} are synonomous. In that, input sequences of neurons produce activations which manage to activate other neurons and spread activations based on weighted connections between previously activated neurons and hidden layers. Ascertaining these activation weights, therefore, refers to the fundamental credit assignment problem. The aggregate activations of neurons between many stages depends on being able to assign credit so as to achieve the desired outcome. Just like in any other machine learning problem, these activations, and the associated weights can be utilized for solving both classification and regression problems, the advantage of deep neural networks in comparison with other learning methods is the non-linear nature of the computations that achieve the aggregate activation of the network.
+
+The success of deep learning methods crucially hinges on several sets of advantages that these learning architectures provide when compared to other machine learning methods and algorithms. In most induction learning processes features need to be handcrafted and curated. In that respect, deep learning methods do not require feature selection as a process. Much of the learning involved in speech processing tasks requires understanding layers of representations which may indeed become more abstract as we get into greater neuronal depths. Deep learning methods are essentially task-neutral and since, they do not need handcrafted features the training, testing, and validation cycles tend to be agnostic to the nature of the task, and therefore highly replicable across domains and datasets. What is applicable to a task such as digit recognition can be easily applied to speech recognition with limited changes to the architectures. Though the architectures themselves may offer lesser or greater accuracy on the task at hand. In the most basic of formulations, sensory inputs are associated with nodes in a hidden layer through a vector of connection weights with each activation in turn associated with a bias term. These hidden units have corresponding connection weights that associate them with the output. For instance, we can characterize a simple artificial neural network as below:
+\begin{figure}
+\begin{tikzpicture}[
+plain/.style={
+  draw=none,
+  fill=none,
+  },
+net/.style={
+  matrix of nodes,
+  nodes={
+    draw,
+    circle,
+    inner sep=10pt
+    },
+  nodes in empty cells,
+  column sep=2cm,
+  row sep=-9pt
+  },
+>=latex
+]
+\matrix[net] (mat)
+{
+|[plain]| \parbox{1.3cm}{\centering Input\\layer} & |[plain]| \parbox{1.3cm}{\centering Hidden\\layer} & |[plain]| \parbox{1.3cm}{\centering Output\\layer} \\
+& |[plain]| \\
+|[plain]| & \\
+& |[plain]| \\
+  |[plain]| & |[plain]| \\
+& & \\
+|[plain]| & |[plain]| \\
+& |[plain]| \\
+  |[plain]| & \\
+& |[plain]| \\    };
+\foreach \ai [count=\mi ]in {2,4,...,10}
+  \draw[<-] (mat-\ai-1) -- node[above] {Input \mi} +(-2cm,0);
+\foreach \ai in {2,4,...,10}
+{\foreach \aii in {3,6,9}
+  \draw[->] (mat-\ai-1) -- (mat-\aii-2);
+}
+\foreach \ai in {3,6,9}
+  \draw[->] (mat-\ai-2) -- (mat-6-3);
+\draw[->] (mat-6-3) -- node[above] {Ouput} +(2cm,0);
+\end{tikzpicture}
+\caption{Basic design of a single hidden layer artificial neural network}
+\end{figure}
+
+The input, in this case any kind of sensory input, and for our case acoustic input (but also see articulatory parameters as input in section 4) could be associated with connection weights that are summed and computed using an activation function as in figure \ref{2}.
+\begin{figure}
+\begin{tikzpicture}[
+init/.style={
+  draw,
+  circle,
+  inner sep=2pt,
+  font=\Huge,
+  join = by -latex
+},
+squa/.style={
+  draw,
+  inner sep=2pt,
+  font=\Large,
+  join = by -latex
+},
+start chain=2,node distance=13mm
+]
+\node[on chain=2] 
+  (x2) {$x_2$};
+\node[on chain=2,join=by o-latex] 
+  {$w_2$};
+\node[on chain=2,init] (sigma) 
+  {$\displaystyle\Sigma$};
+\node[on chain=2,squa,label=above:{\parbox{2cm}{\centering Activate \\ function}}]   
+  {$f$};
+\node[on chain=2,label=above:Output,join=by -latex] 
+  {$y$};
+\begin{scope}[start chain=1]
+\node[on chain=1] at (0,1.5cm) 
+  (x1) {$x_1$};
+\node[on chain=1,join=by o-latex] 
+  (w1) {$w_1$};
+\end{scope}
+\begin{scope}[start chain=3]
+\node[on chain=3] at (0,-1.5cm) 
+  (x3) {$x_3$};
+\node[on chain=3,label=below:Weights,join=by o-latex] 
+  (w3) {$w_3$};
+\end{scope}
+\node[label=above:\parbox{2cm}{\centering Bias \\ $b$}] at (sigma|-w1) (b) {};
+
+\draw[-latex] (w1) -- (sigma);
+\draw[-latex] (w3) -- (sigma);
+\draw[o-latex] (b) -- (sigma);
+
+\draw[decorate,decoration={brace,mirror}] (x1.north west) -- node[left=10pt] {Inputs} (x3.south west);
+\end{tikzpicture}
+\caption{Connection weights and activation functions}
+\label{2}
+\end{figure}
+
+A consolidated 
+
+
+
+
 
 \section{The architecture of Deep Neural Netowrks}
 While the basic structure and functions of the artificial feed-forward neural network or single-layer perceptron remain the same, a lot of advancement has been made in recent years by adding more layers to the architecture. In this way, the perceptron has been used as a building block to create architectures that are remarkable improvements over the initial attempts to use these machines for both classification and regression tasks.
@@ -51,26 +165,27 @@ y_{j}=logistic(x_{j})=\frac{1}{1+e^{-x_{j}}}, x_{j} = b_{j} + \sum_{i}y_{i}w_{ij
 \subsection{Sequence Learning with Recurrent Neural Networks}
 Feed-forward neural networks (deep or otherwise) are effective for modelling non-linear relationships between fixed-length inputs and outputs. This however limits their application in learning problems which involve sequential data, such as to be found in the linguistic domain. Speech as well as text are inherently sequential in form, and to effectively model these, the basic feed-forward architecture needed to be extended.
 
-Recurrent Neural Networks (RNN) \cite{rumelhart1986} provided these necessary extensions to the basic feed-forward architecture in the form of internal feedback connections that allowed the network to propagate learned weights from past processing steps to the current one. Instead of a single fixed-length input vector x, RNNs take in a sequence of input vectors x$^1$,\ldots,x$^t$, which correspond (though not necessarily, since the input could be any form of sequential data) to a sequence in time with timesteps $t$. An RNN with one hidden, recurrent layer would, for an input sequence x$_i$, compute the internal state y$_i$$^t$ as well as a hidden state h$^t$ which would be fed back to the network at the computation for the input at the next time-step, x$^{t+1}$. Intuitively, this hidden state may be understood simplistically as a memory mechanism which makes RNNs extremely effective to modelling for learning/model tasks on data that is temporally dynamic and sequential, such as speech. The use of RNNs has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition. For an in-depth explanation of recurrent networks and their application to sequence modelling, see \cite{graves2012}.
 
-Despite the suitability of vanilla recurrent architecture to modelling sequential data, there remained certain shortcomings. In particular, the network's access to past contextual information was limited and made it hard to train them effectively. \cite{hochreiter1997} proposed 'Long Short-Term Memory' (LSTM), an recurrent architecture designed to overcome the shortcomings of the traditional RNNs. LSTMs have become ubiquitous in deep learning applied to sequence modelling, to the point of almost being considered synonymous with recurrent networks. The key improvement of LSTMs is to employ memory cells with 'input', 'forget', and 'output' gates. The gates allow the network to learn to control the contents of it's memory state, allowing it to process contextual dependencies over significantly longer time periods in the input. Alternatives to LSTM that employ a similar gated feedback mechanism have also been proposed successfully, such as the Gated Recurrent Unit (GRU) in \cite{DBLP:journals/corr/ChoMBB14}.
+Recurrent Neural Networks (RNN) \cite{rumelhart1986} provided these necessary extensions to the basic feed-forward architecture in the form of internal feedback connections that allowed the network to propagate learned weights from past processing steps to the current one. Instead of a single fixed-length input vector x, RNNs take in a sequence of input vectors x$^1$,\ldots,x$^t$, which correspond (though not necessarily) to a sequence in time with timesteps t. At Intuitively, this internal state may be understood as providing the network with a memory mechanism. This feature of RNNs makes them suitable for learning/processing tasks on data that is temporally dynamic and sequential, such as speech. The use of RNNs has driven much of the recent advances in the state-of-the-art of artificial speech processing and recognition.
 
 \subsection{Deep Belief Networks}
 Restricted Boltzmann Machines (RBMs) are a class of stochastic neural networks typically applied to unsupervised learning problems. The architecture consists of a layer of visible units, which correspond to the input data vector, and a layer of hidden units. The 'restriction' here, in reference to regular Boltzmann Machines, is that there are no visible-visible or hidden-hidden connections. The result of this is that the hidden units are mutually independent and can be sampled parallelly in an unbiased way. This allows the RBM to efficiently find
 
 
-
-\section{Modelling dynamic processes in speech processing}
+\section{Modelling dynamic processes in speech processing}\label{section 4}
 In this section we will cover a special use case of applying deep learning methods to an essentially non-linear set of problems, namely, modeling the dynamic nature of the articulatory-acoustic mapping (AAM). Since \cite{stevens1968}, it has been known that the relationship between the articulatory and acoustic parameters is non-linear and has been explicated within the broad reach of \emph{Quantal theory} \citep{stevens1968}
+
 
 \subsection{Acoustic-to-Articulatory inversion}
 Acoustic variation can be considered a direct consequence of changes in the articulatory parameter. While a given articulatory state will always have a unitary and unique acoustic realization, a given acoustic signal could be the outcome of more than one articulatory states. This is exemplified in \ref{Fig.1} below, where large changes in the articulatory parameter may not consequently produce different acoustic variations, however, every articulatory state has a unique acoustic consequence. The mapping between the articulatory and acoustic parameters, therefore, is highly non-linear in nature. A slight variation of the articulatory state may give rise to a whole different acoustic signal. This gives rise to a class of problems understood as the acoustic to articulatory inversion problem.
+
 
 \begin{figure}[h]
 \includegraphics[scale=0.80]{sigmoid.pdf}
 \label{Fig.1}
 \end{figure}
 \subsection{Acoustic-to-Articulatory mapping}
+
 Acoustic-to-Articulatory mapping refers to a special class of the speech inversion problem where simultaneous articulatory and acoustic data is used to learn a mapping between the parameters. This learning, due to the essential non-linear relationship between the parameters, therefore, is also learning of various non-linearities. Recovering articulatory features from acoustics, therefore, remains a non-trivial problem.
 \cite{toutios2003}
 \cite{badino2016,canevari2013,cernak2016}
